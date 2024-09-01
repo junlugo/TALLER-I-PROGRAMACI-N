@@ -15,14 +15,99 @@
                 "id": 2,
                 "fecha": 1724284800000,
                 "monto": 1000000,
-                "descripcion": "impresiones"
+                "descripcion": "Impresiones"
             },
             {
                 "id": 3,
                 "fecha": 1724284800000,
                 "monto": 10000000,
-                "descripcion": "entrega para terreno"
+                "descripcion": "Entrega para terreno"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "fechaInicio": "2024-07-01",
+        "fechaFin": "2024-07-15",
+        "montoPresupuestado": 250000,
+        "gastos": [
+            {
+                "id": 4,
+                "fecha": 1724889600000,
+                "monto": 20000,
+                "descripcion": "Materiales de construcción"
+            },
+            {
+                "id": 5,
+                "fecha": 1724976000000,
+                "monto": 50000,
+                "descripcion": "Contratación de personal"
+            },
+            {
+                "id": 6,
+                "fecha": 1725062400000,
+                "monto": 75000,
+                "descripcion": "Alquiler de maquinaria"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "fechaInicio": "2024-08-01",
+        "fechaFin": "2024-08-31",
+        "montoPresupuestado": 500000,
+        "gastos": [
+            {
+                "id": 7,
+                "fecha": 1725753600000,
+                "monto": 120000,
+                "descripcion": "Consultoría técnica"
+            },
+            {
+                "id": 8,
+                "fecha": 1725840000000,
+                "monto": 150000,
+                "descripcion": "Compra de equipos"
+            },
+            {
+                "id": 9,
+                "fecha": 1725926400000,
+                "monto": 100000,
+                "descripcion": "Capacitación del personal"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "fechaInicio": "2024-09-01",
+        "fechaFin": "2024-09-30",
+        "montoPresupuestado": 750000,
+        "gastos": [
+            {
+                "id": 10,
+                "fecha": 1726444800000,
+                "monto": 250000,
+                "descripcion": "Adquisición de software"
+            },
+            {
+                "id": 11,
+                "fecha": 1726531200000,
+                "monto": 200000,
+                "descripcion": "Actualización de hardware"
+            },
+            {
+                "id": 12,
+                "fecha": 1726617600000,
+                "monto": 100000,
+                "descripcion": "Implementación de seguridad"
+            },
+            {
+                "id": 13,
+                "fecha": 1726704000000,
+                "monto": 100000,
+                "descripcion": "Promoción y marketing"
             }
         ]
     }
 ]
+
