@@ -1,4 +1,4 @@
-package py.edu.ucom.controllers;
+package controllers;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -13,11 +13,11 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import py.edu.ucom.entities.HolaMundo;
-import py.edu.ucom.entities.apiresponse.Gastos;
-import py.edu.ucom.services.api.GenericDaoServiceWithJason;
-import py.edu.ucom.model.response.ApiResponse;
-import py.edu.ucom.services.api.ApiResponseService;
+import entities.HolaMundo;
+import entities.apiresponse.Gastos;
+import services.api.GenericDaoServiceWithJason;
+import model.response.ApiResponse;
+import services.api.ApiResponseService;
 
 @Path("/api-example")
 public class ApiResponseResource {
@@ -45,8 +45,8 @@ public class ApiResponseResource {
         respuesta.setCode(200);
         respuesta.setMessage("Primer mensaje");
         HolaMundo hm = new HolaMundo();
-        hm.setNobmre("Jhony");
-        hm.setEdad(29);
+        hm.setNobmre("Brian");
+        hm.setEdad(25);
         hm.setFechaNacimiento(new Date());
         respuesta.setData(hm);
         return respuesta;
